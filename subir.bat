@@ -4,6 +4,8 @@ setlocal
 :: Navigate to the current directory (where the script is located)
 cd %~dp0
 
+git pull
+
 :: Stage all changes
 git add .
 
